@@ -1,0 +1,30 @@
+
+
+<html>
+    <head>
+        <title>tutor joes</title>
+        </head>
+        <body>
+            <img src="pngimg/off.png" height="250px" width="150px">
+
+
+            <script>
+                var img=document.querySelector('img');
+                img.onclick=function(){
+                    var src=img.getAttribute("src");
+                    if(src==="pngimg/off.png")
+                    {
+                        img.setAttribute("src","pngimg/on.png");
+                        
+                    }
+                    else
+                    {
+                        img.setAttribute("src","pngimg/off.png");
+                    }
+                    
+                }
+
+
+                </script>
+            </body>
+    </html>
